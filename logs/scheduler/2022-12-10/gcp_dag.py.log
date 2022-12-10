@@ -1,0 +1,722 @@
+[2022-12-10 16:03:39,612] {scheduler_job.py:182} INFO - Started process (PID=29) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:03:39,617] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:03:39,625] {logging_mixin.py:104} INFO - [2022-12-10 16:03:39,623] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:03:39,980] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:03:40,147] {logging_mixin.py:104} INFO - [2022-12-10 16:03:40,147] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:03:40,203] {logging_mixin.py:104} INFO - [2022-12-10 16:03:40,202] {dag.py:1837} INFO - Creating ORM DAG for mysql-to-gcp
+[2022-12-10 16:03:40,257] {logging_mixin.py:104} INFO - [2022-12-10 16:03:40,257] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 15:43:40.256628+00:00
+[2022-12-10 16:03:40,340] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.756 seconds
+[2022-12-10 16:04:13,341] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:04:13,348] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:04:13,366] {logging_mixin.py:104} INFO - [2022-12-10 16:04:13,366] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:04:13,603] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:04:13,703] {logging_mixin.py:104} INFO - [2022-12-10 16:04:13,703] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:04:13,816] {logging_mixin.py:104} INFO - [2022-12-10 16:04:13,816] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 15:44:13.815940+00:00
+[2022-12-10 16:04:13,917] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.592 seconds
+[2022-12-10 16:04:47,203] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:04:47,223] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:04:47,227] {logging_mixin.py:104} INFO - [2022-12-10 16:04:47,227] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:04:47,405] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:04:47,528] {logging_mixin.py:104} INFO - [2022-12-10 16:04:47,527] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:04:47,639] {logging_mixin.py:104} INFO - [2022-12-10 16:04:47,638] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 15:44:47.638429+00:00
+[2022-12-10 16:04:47,703] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.520 seconds
+[2022-12-10 16:05:19,159] {scheduler_job.py:182} INFO - Started process (PID=116) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:05:19,171] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:05:19,177] {logging_mixin.py:104} INFO - [2022-12-10 16:05:19,176] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:05:19,354] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:05:19,485] {logging_mixin.py:104} INFO - [2022-12-10 16:05:19,484] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:05:19,572] {logging_mixin.py:104} INFO - [2022-12-10 16:05:19,572] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:05:19,958] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.828 seconds
+[2022-12-10 16:05:50,661] {scheduler_job.py:182} INFO - Started process (PID=143) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:05:50,685] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:05:50,689] {logging_mixin.py:104} INFO - [2022-12-10 16:05:50,688] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:05:51,030] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:05:51,276] {logging_mixin.py:104} INFO - [2022-12-10 16:05:51,276] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:05:51,420] {logging_mixin.py:104} INFO - [2022-12-10 16:05:51,420] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:05:51,493] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.857 seconds
+[2022-12-10 16:06:21,799] {scheduler_job.py:182} INFO - Started process (PID=170) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:06:21,803] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:06:21,805] {logging_mixin.py:104} INFO - [2022-12-10 16:06:21,805] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:06:21,876] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:06:21,922] {logging_mixin.py:104} INFO - [2022-12-10 16:06:21,921] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:06:21,956] {logging_mixin.py:104} INFO - [2022-12-10 16:06:21,955] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:06:21,974] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.180 seconds
+[2022-12-10 16:06:52,249] {scheduler_job.py:182} INFO - Started process (PID=197) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:06:52,254] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:06:52,257] {logging_mixin.py:104} INFO - [2022-12-10 16:06:52,257] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:06:52,359] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:06:52,442] {logging_mixin.py:104} INFO - [2022-12-10 16:06:52,441] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:06:52,511] {logging_mixin.py:104} INFO - [2022-12-10 16:06:52,511] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:06:52,551] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.311 seconds
+[2022-12-10 16:07:22,837] {scheduler_job.py:182} INFO - Started process (PID=224) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:07:22,842] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:07:22,845] {logging_mixin.py:104} INFO - [2022-12-10 16:07:22,844] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:07:22,996] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:07:23,145] {logging_mixin.py:104} INFO - [2022-12-10 16:07:23,144] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:07:23,198] {logging_mixin.py:104} INFO - [2022-12-10 16:07:23,198] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:07:23,225] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.397 seconds
+[2022-12-10 16:07:53,304] {scheduler_job.py:182} INFO - Started process (PID=251) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:07:53,308] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:07:53,310] {logging_mixin.py:104} INFO - [2022-12-10 16:07:53,310] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:07:53,428] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:07:53,500] {logging_mixin.py:104} INFO - [2022-12-10 16:07:53,500] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:07:53,553] {logging_mixin.py:104} INFO - [2022-12-10 16:07:53,553] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:07:53,573] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.278 seconds
+[2022-12-10 16:08:24,019] {scheduler_job.py:182} INFO - Started process (PID=278) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:08:24,025] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:08:24,032] {logging_mixin.py:104} INFO - [2022-12-10 16:08:24,032] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:08:24,215] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:08:24,330] {logging_mixin.py:104} INFO - [2022-12-10 16:08:24,330] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:08:24,375] {logging_mixin.py:104} INFO - [2022-12-10 16:08:24,375] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:08:24,406] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.408 seconds
+[2022-12-10 16:08:54,975] {scheduler_job.py:182} INFO - Started process (PID=305) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:08:54,981] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:08:54,986] {logging_mixin.py:104} INFO - [2022-12-10 16:08:54,986] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:08:55,185] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:08:55,296] {logging_mixin.py:104} INFO - [2022-12-10 16:08:55,295] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:08:55,426] {logging_mixin.py:104} INFO - [2022-12-10 16:08:55,426] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:08:55,465] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.506 seconds
+[2022-12-10 16:09:25,658] {scheduler_job.py:182} INFO - Started process (PID=332) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:09:25,662] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:09:25,664] {logging_mixin.py:104} INFO - [2022-12-10 16:09:25,664] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:09:25,750] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:09:25,820] {logging_mixin.py:104} INFO - [2022-12-10 16:09:25,820] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:09:25,873] {logging_mixin.py:104} INFO - [2022-12-10 16:09:25,872] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:09:25,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.268 seconds
+[2022-12-10 16:09:56,966] {scheduler_job.py:182} INFO - Started process (PID=359) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:09:56,970] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:09:56,973] {logging_mixin.py:104} INFO - [2022-12-10 16:09:56,973] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:09:57,081] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:09:57,140] {logging_mixin.py:104} INFO - [2022-12-10 16:09:57,140] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:09:57,183] {logging_mixin.py:104} INFO - [2022-12-10 16:09:57,183] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:09:57,203] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.247 seconds
+[2022-12-10 16:10:27,754] {scheduler_job.py:182} INFO - Started process (PID=386) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:10:27,766] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:10:27,770] {logging_mixin.py:104} INFO - [2022-12-10 16:10:27,769] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:10:27,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:10:27,994] {logging_mixin.py:104} INFO - [2022-12-10 16:10:27,994] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:10:28,083] {logging_mixin.py:104} INFO - [2022-12-10 16:10:28,081] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:10:28,111] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.367 seconds
+[2022-12-10 16:10:58,687] {scheduler_job.py:182} INFO - Started process (PID=413) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:10:58,693] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:10:58,695] {logging_mixin.py:104} INFO - [2022-12-10 16:10:58,695] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:10:58,873] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:10:58,968] {logging_mixin.py:104} INFO - [2022-12-10 16:10:58,968] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:10:59,030] {logging_mixin.py:104} INFO - [2022-12-10 16:10:59,030] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:10:59,061] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.394 seconds
+[2022-12-10 16:11:30,461] {scheduler_job.py:182} INFO - Started process (PID=440) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:11:30,465] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:11:30,467] {logging_mixin.py:104} INFO - [2022-12-10 16:11:30,467] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:11:30,588] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:11:30,750] {logging_mixin.py:104} INFO - [2022-12-10 16:11:30,750] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:11:30,935] {logging_mixin.py:104} INFO - [2022-12-10 16:11:30,935] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:11:31,001] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.551 seconds
+[2022-12-10 16:12:01,250] {scheduler_job.py:182} INFO - Started process (PID=467) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:12:01,254] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:12:01,256] {logging_mixin.py:104} INFO - [2022-12-10 16:12:01,255] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:12:01,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:12:01,420] {logging_mixin.py:104} INFO - [2022-12-10 16:12:01,420] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:12:01,457] {logging_mixin.py:104} INFO - [2022-12-10 16:12:01,457] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:12:01,476] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.239 seconds
+[2022-12-10 16:12:32,369] {scheduler_job.py:182} INFO - Started process (PID=494) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:12:32,373] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:12:32,376] {logging_mixin.py:104} INFO - [2022-12-10 16:12:32,376] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:12:32,466] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:12:32,530] {logging_mixin.py:104} INFO - [2022-12-10 16:12:32,528] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:12:32,563] {logging_mixin.py:104} INFO - [2022-12-10 16:12:32,563] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:12:32,601] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.241 seconds
+[2022-12-10 16:13:03,068] {scheduler_job.py:182} INFO - Started process (PID=521) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:13:03,073] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:13:03,078] {logging_mixin.py:104} INFO - [2022-12-10 16:13:03,077] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:13:03,196] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:13:03,259] {logging_mixin.py:104} INFO - [2022-12-10 16:13:03,258] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:13:03,292] {logging_mixin.py:104} INFO - [2022-12-10 16:13:03,292] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:13:03,312] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.262 seconds
+[2022-12-10 16:13:34,694] {scheduler_job.py:182} INFO - Started process (PID=548) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:13:34,698] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:13:34,700] {logging_mixin.py:104} INFO - [2022-12-10 16:13:34,700] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:13:34,825] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:13:34,880] {logging_mixin.py:104} INFO - [2022-12-10 16:13:34,880] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:13:34,919] {logging_mixin.py:104} INFO - [2022-12-10 16:13:34,919] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:13:34,943] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.258 seconds
+[2022-12-10 16:14:05,550] {scheduler_job.py:182} INFO - Started process (PID=574) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:14:05,554] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:14:05,555] {logging_mixin.py:104} INFO - [2022-12-10 16:14:05,555] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:14:05,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:14:05,696] {logging_mixin.py:104} INFO - [2022-12-10 16:14:05,696] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:14:05,732] {logging_mixin.py:104} INFO - [2022-12-10 16:14:05,732] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:14:05,758] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.216 seconds
+[2022-12-10 16:14:36,108] {scheduler_job.py:182} INFO - Started process (PID=601) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:14:36,114] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:14:36,116] {logging_mixin.py:104} INFO - [2022-12-10 16:14:36,116] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:14:36,226] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:14:36,301] {logging_mixin.py:104} INFO - [2022-12-10 16:14:36,300] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:14:36,352] {logging_mixin.py:104} INFO - [2022-12-10 16:14:36,351] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:14:36,395] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.295 seconds
+[2022-12-10 16:15:06,581] {scheduler_job.py:182} INFO - Started process (PID=628) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:15:06,585] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:15:06,587] {logging_mixin.py:104} INFO - [2022-12-10 16:15:06,587] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:15:06,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:15:06,819] {logging_mixin.py:104} INFO - [2022-12-10 16:15:06,818] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:15:06,879] {logging_mixin.py:104} INFO - [2022-12-10 16:15:06,879] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:15:06,904] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.335 seconds
+[2022-12-10 16:15:37,089] {scheduler_job.py:182} INFO - Started process (PID=655) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:15:37,093] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:15:37,095] {logging_mixin.py:104} INFO - [2022-12-10 16:15:37,094] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:15:37,284] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:15:37,351] {logging_mixin.py:104} INFO - [2022-12-10 16:15:37,351] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:15:37,390] {logging_mixin.py:104} INFO - [2022-12-10 16:15:37,389] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:15:37,419] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.342 seconds
+[2022-12-10 16:16:07,802] {scheduler_job.py:182} INFO - Started process (PID=682) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:16:07,807] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:16:07,809] {logging_mixin.py:104} INFO - [2022-12-10 16:16:07,809] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:16:07,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:16:07,963] {logging_mixin.py:104} INFO - [2022-12-10 16:16:07,963] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:16:07,999] {logging_mixin.py:104} INFO - [2022-12-10 16:16:07,999] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:16:08,024] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.232 seconds
+[2022-12-10 16:16:38,894] {scheduler_job.py:182} INFO - Started process (PID=709) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:16:38,900] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:16:38,903] {logging_mixin.py:104} INFO - [2022-12-10 16:16:38,902] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:16:39,031] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:16:39,087] {logging_mixin.py:104} INFO - [2022-12-10 16:16:39,087] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:16:39,138] {logging_mixin.py:104} INFO - [2022-12-10 16:16:39,137] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:16:39,162] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.284 seconds
+[2022-12-10 16:17:10,810] {scheduler_job.py:182} INFO - Started process (PID=739) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:17:10,828] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:17:10,843] {logging_mixin.py:104} INFO - [2022-12-10 16:17:10,843] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:17:11,016] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:17:11,069] {logging_mixin.py:104} INFO - [2022-12-10 16:17:11,069] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:17:11,109] {logging_mixin.py:104} INFO - [2022-12-10 16:17:11,108] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:17:11,131] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.329 seconds
+[2022-12-10 16:17:41,795] {scheduler_job.py:182} INFO - Started process (PID=766) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:17:41,800] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:17:41,802] {logging_mixin.py:104} INFO - [2022-12-10 16:17:41,802] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:17:41,915] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:17:41,970] {logging_mixin.py:104} INFO - [2022-12-10 16:17:41,969] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:17:42,103] {logging_mixin.py:104} INFO - [2022-12-10 16:17:42,103] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:17:42,247] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.463 seconds
+[2022-12-10 16:18:12,882] {scheduler_job.py:182} INFO - Started process (PID=792) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:18:12,886] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:18:12,888] {logging_mixin.py:104} INFO - [2022-12-10 16:18:12,888] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:18:13,255] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:18:13,324] {logging_mixin.py:104} INFO - [2022-12-10 16:18:13,324] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:18:13,369] {logging_mixin.py:104} INFO - [2022-12-10 16:18:13,369] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:18:13,413] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.541 seconds
+[2022-12-10 16:18:44,291] {scheduler_job.py:182} INFO - Started process (PID=819) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:18:44,295] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:18:44,303] {logging_mixin.py:104} INFO - [2022-12-10 16:18:44,303] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:18:44,492] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:18:44,558] {logging_mixin.py:104} INFO - [2022-12-10 16:18:44,558] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:18:44,600] {logging_mixin.py:104} INFO - [2022-12-10 16:18:44,600] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:18:44,631] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.355 seconds
+[2022-12-10 16:19:22,275] {scheduler_job.py:182} INFO - Started process (PID=856) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:19:22,280] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:19:22,286] {logging_mixin.py:104} INFO - [2022-12-10 16:19:22,285] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:19:22,443] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:19:22,527] {logging_mixin.py:104} INFO - [2022-12-10 16:19:22,526] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:19:22,574] {logging_mixin.py:104} INFO - [2022-12-10 16:19:22,574] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:19:22,612] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.347 seconds
+[2022-12-10 16:19:54,246] {scheduler_job.py:182} INFO - Started process (PID=880) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:19:54,250] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:19:54,253] {logging_mixin.py:104} INFO - [2022-12-10 16:19:54,253] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:19:54,403] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:19:54,579] {logging_mixin.py:104} INFO - [2022-12-10 16:19:54,579] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:19:54,694] {logging_mixin.py:104} INFO - [2022-12-10 16:19:54,694] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:19:54,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.505 seconds
+[2022-12-10 16:20:25,456] {scheduler_job.py:182} INFO - Started process (PID=906) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:20:25,460] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:20:25,462] {logging_mixin.py:104} INFO - [2022-12-10 16:20:25,462] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:20:25,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:20:25,610] {logging_mixin.py:104} INFO - [2022-12-10 16:20:25,610] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:20:25,654] {logging_mixin.py:104} INFO - [2022-12-10 16:20:25,654] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:20:25,675] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.225 seconds
+[2022-12-10 16:20:57,949] {scheduler_job.py:182} INFO - Started process (PID=932) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:20:57,965] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:20:57,969] {logging_mixin.py:104} INFO - [2022-12-10 16:20:57,968] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:20:58,210] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:20:58,507] {logging_mixin.py:104} INFO - [2022-12-10 16:20:58,507] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:20:58,820] {logging_mixin.py:104} INFO - [2022-12-10 16:20:58,819] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:21:00,262] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 2.329 seconds
+[2022-12-10 16:21:31,401] {scheduler_job.py:182} INFO - Started process (PID=960) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:21:31,406] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:21:31,418] {logging_mixin.py:104} INFO - [2022-12-10 16:21:31,418] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:21:32,241] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:21:32,433] {logging_mixin.py:104} INFO - [2022-12-10 16:21:32,433] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:21:32,546] {logging_mixin.py:104} INFO - [2022-12-10 16:21:32,545] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:21:32,638] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.256 seconds
+[2022-12-10 16:22:03,451] {scheduler_job.py:182} INFO - Started process (PID=987) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:22:03,607] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:22:03,688] {logging_mixin.py:104} INFO - [2022-12-10 16:22:03,688] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:22:04,781] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:22:04,935] {logging_mixin.py:104} INFO - [2022-12-10 16:22:04,935] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:22:05,063] {logging_mixin.py:104} INFO - [2022-12-10 16:22:05,062] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:22:06,445] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 3.012 seconds
+[2022-12-10 16:22:37,042] {scheduler_job.py:182} INFO - Started process (PID=1014) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:22:37,058] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:22:37,062] {logging_mixin.py:104} INFO - [2022-12-10 16:22:37,061] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:22:37,335] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:22:37,463] {logging_mixin.py:104} INFO - [2022-12-10 16:22:37,462] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:22:37,553] {logging_mixin.py:104} INFO - [2022-12-10 16:22:37,552] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:22:37,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.582 seconds
+[2022-12-10 16:23:07,751] {scheduler_job.py:182} INFO - Started process (PID=1040) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:23:07,756] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:23:07,758] {logging_mixin.py:104} INFO - [2022-12-10 16:23:07,758] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:23:07,857] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:23:07,920] {logging_mixin.py:104} INFO - [2022-12-10 16:23:07,920] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:23:07,963] {logging_mixin.py:104} INFO - [2022-12-10 16:23:07,962] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:23:07,987] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.244 seconds
+[2022-12-10 16:23:38,266] {scheduler_job.py:182} INFO - Started process (PID=1067) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:23:38,284] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:23:38,298] {logging_mixin.py:104} INFO - [2022-12-10 16:23:38,298] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:23:38,416] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:23:38,509] {logging_mixin.py:104} INFO - [2022-12-10 16:23:38,509] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:23:38,587] {logging_mixin.py:104} INFO - [2022-12-10 16:23:38,586] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:23:39,973] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.760 seconds
+[2022-12-10 16:24:10,100] {scheduler_job.py:182} INFO - Started process (PID=1094) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:24:10,104] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:24:10,106] {logging_mixin.py:104} INFO - [2022-12-10 16:24:10,106] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:24:10,213] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:24:10,319] {logging_mixin.py:104} INFO - [2022-12-10 16:24:10,319] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:24:10,389] {logging_mixin.py:104} INFO - [2022-12-10 16:24:10,389] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:24:10,432] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.339 seconds
+[2022-12-10 16:24:41,118] {scheduler_job.py:182} INFO - Started process (PID=1122) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:24:41,136] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:24:41,141] {logging_mixin.py:104} INFO - [2022-12-10 16:24:41,141] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:24:41,380] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:24:41,484] {logging_mixin.py:104} INFO - [2022-12-10 16:24:41,484] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:24:41,557] {logging_mixin.py:104} INFO - [2022-12-10 16:24:41,557] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:04:47.638429+00:00
+[2022-12-10 16:24:41,595] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.495 seconds
+[2022-12-10 16:25:11,797] {scheduler_job.py:182} INFO - Started process (PID=1149) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:25:11,802] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:25:11,805] {logging_mixin.py:104} INFO - [2022-12-10 16:25:11,804] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:25:12,047] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:25:12,163] {logging_mixin.py:104} INFO - [2022-12-10 16:25:12,163] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:25:12,259] {logging_mixin.py:104} INFO - [2022-12-10 16:25:12,259] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:25:12,315] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.537 seconds
+[2022-12-10 16:25:44,210] {scheduler_job.py:182} INFO - Started process (PID=1178) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:25:44,223] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:25:44,227] {logging_mixin.py:104} INFO - [2022-12-10 16:25:44,226] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:25:44,340] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:25:44,400] {logging_mixin.py:104} INFO - [2022-12-10 16:25:44,400] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:25:44,449] {logging_mixin.py:104} INFO - [2022-12-10 16:25:44,448] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:25:44,472] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.281 seconds
+[2022-12-10 16:26:15,566] {scheduler_job.py:182} INFO - Started process (PID=1207) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:26:15,572] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:26:15,581] {logging_mixin.py:104} INFO - [2022-12-10 16:26:15,581] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:26:16,003] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:26:16,210] {logging_mixin.py:104} INFO - [2022-12-10 16:26:16,210] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:26:16,338] {logging_mixin.py:104} INFO - [2022-12-10 16:26:16,337] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:26:16,394] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.841 seconds
+[2022-12-10 16:26:46,577] {scheduler_job.py:182} INFO - Started process (PID=1234) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:26:46,581] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:26:46,583] {logging_mixin.py:104} INFO - [2022-12-10 16:26:46,583] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:26:46,695] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:26:46,764] {logging_mixin.py:104} INFO - [2022-12-10 16:26:46,764] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:26:46,810] {logging_mixin.py:104} INFO - [2022-12-10 16:26:46,810] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:26:46,834] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.270 seconds
+[2022-12-10 16:27:17,675] {scheduler_job.py:182} INFO - Started process (PID=1261) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:27:17,679] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:27:17,681] {logging_mixin.py:104} INFO - [2022-12-10 16:27:17,681] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:27:17,781] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:27:17,848] {logging_mixin.py:104} INFO - [2022-12-10 16:27:17,848] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:27:17,908] {logging_mixin.py:104} INFO - [2022-12-10 16:27:17,908] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:27:17,958] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.292 seconds
+[2022-12-10 16:27:50,154] {scheduler_job.py:182} INFO - Started process (PID=1288) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:27:50,158] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:27:50,164] {logging_mixin.py:104} INFO - [2022-12-10 16:27:50,160] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:27:50,301] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:27:50,370] {logging_mixin.py:104} INFO - [2022-12-10 16:27:50,370] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:27:50,426] {logging_mixin.py:104} INFO - [2022-12-10 16:27:50,426] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:27:50,451] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.311 seconds
+[2022-12-10 16:28:21,244] {scheduler_job.py:182} INFO - Started process (PID=1315) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:28:21,249] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:28:21,253] {logging_mixin.py:104} INFO - [2022-12-10 16:28:21,252] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:28:21,316] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:28:21,356] {logging_mixin.py:104} INFO - [2022-12-10 16:28:21,355] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:28:21,397] {logging_mixin.py:104} INFO - [2022-12-10 16:28:21,397] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:28:21,429] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.194 seconds
+[2022-12-10 16:28:51,540] {scheduler_job.py:182} INFO - Started process (PID=1342) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:28:51,546] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:28:51,549] {logging_mixin.py:104} INFO - [2022-12-10 16:28:51,548] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:28:51,628] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:28:51,680] {logging_mixin.py:104} INFO - [2022-12-10 16:28:51,680] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:28:51,713] {logging_mixin.py:104} INFO - [2022-12-10 16:28:51,713] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:28:51,731] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.205 seconds
+[2022-12-10 16:29:22,837] {scheduler_job.py:182} INFO - Started process (PID=1369) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:29:22,845] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:29:22,851] {logging_mixin.py:104} INFO - [2022-12-10 16:29:22,850] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:29:22,988] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:29:23,096] {logging_mixin.py:104} INFO - [2022-12-10 16:29:23,096] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:29:23,136] {logging_mixin.py:104} INFO - [2022-12-10 16:29:23,135] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:29:23,421] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.594 seconds
+[2022-12-10 16:29:54,406] {scheduler_job.py:182} INFO - Started process (PID=1394) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:29:54,412] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:29:54,426] {logging_mixin.py:104} INFO - [2022-12-10 16:29:54,426] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:29:54,850] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:29:55,004] {logging_mixin.py:104} INFO - [2022-12-10 16:29:55,003] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:29:55,142] {logging_mixin.py:104} INFO - [2022-12-10 16:29:55,142] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:29:55,230] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.851 seconds
+[2022-12-10 16:30:25,673] {scheduler_job.py:182} INFO - Started process (PID=1421) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:30:25,677] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:30:25,680] {logging_mixin.py:104} INFO - [2022-12-10 16:30:25,680] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:30:25,786] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:30:25,864] {logging_mixin.py:104} INFO - [2022-12-10 16:30:25,864] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:30:25,915] {logging_mixin.py:104} INFO - [2022-12-10 16:30:25,915] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:30:25,945] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.286 seconds
+[2022-12-10 16:31:08,926] {scheduler_job.py:182} INFO - Started process (PID=1455) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:31:08,968] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:31:09,078] {logging_mixin.py:104} INFO - [2022-12-10 16:31:09,078] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:31:12,465] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:31:12,640] {logging_mixin.py:104} INFO - [2022-12-10 16:31:12,639] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:31:12,785] {logging_mixin.py:104} INFO - [2022-12-10 16:31:12,785] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:31:12,954] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 4.052 seconds
+[2022-12-10 16:31:43,249] {scheduler_job.py:182} INFO - Started process (PID=1483) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:31:43,267] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:31:43,284] {logging_mixin.py:104} INFO - [2022-12-10 16:31:43,284] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:31:43,480] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:31:43,659] {logging_mixin.py:104} INFO - [2022-12-10 16:31:43,659] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:31:43,784] {logging_mixin.py:104} INFO - [2022-12-10 16:31:43,783] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:31:43,861] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.646 seconds
+[2022-12-10 16:32:17,717] {scheduler_job.py:182} INFO - Started process (PID=1509) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:32:17,724] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:32:17,729] {logging_mixin.py:104} INFO - [2022-12-10 16:32:17,728] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:32:20,145] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:32:20,952] {logging_mixin.py:104} INFO - [2022-12-10 16:32:20,952] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:32:21,482] {logging_mixin.py:104} INFO - [2022-12-10 16:32:21,482] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:32:21,729] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 4.033 seconds
+[2022-12-10 16:32:52,283] {scheduler_job.py:182} INFO - Started process (PID=1537) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:32:52,337] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:32:52,355] {logging_mixin.py:104} INFO - [2022-12-10 16:32:52,355] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:32:52,890] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:32:53,146] {logging_mixin.py:104} INFO - [2022-12-10 16:32:53,138] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:32:53,312] {logging_mixin.py:104} INFO - [2022-12-10 16:32:53,311] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:32:53,403] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.169 seconds
+[2022-12-10 16:33:24,691] {scheduler_job.py:182} INFO - Started process (PID=1564) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:33:24,802] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:33:24,853] {logging_mixin.py:104} INFO - [2022-12-10 16:33:24,853] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:33:26,338] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:33:26,472] {logging_mixin.py:104} INFO - [2022-12-10 16:33:26,471] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:33:26,673] {logging_mixin.py:104} INFO - [2022-12-10 16:33:26,673] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:33:26,776] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 2.106 seconds
+[2022-12-10 16:33:57,373] {scheduler_job.py:182} INFO - Started process (PID=1592) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:33:57,376] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:33:57,379] {logging_mixin.py:104} INFO - [2022-12-10 16:33:57,378] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:33:57,558] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:33:57,681] {logging_mixin.py:104} INFO - [2022-12-10 16:33:57,680] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:33:57,750] {logging_mixin.py:104} INFO - [2022-12-10 16:33:57,750] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:33:57,799] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.438 seconds
+[2022-12-10 16:34:28,802] {scheduler_job.py:182} INFO - Started process (PID=1621) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:34:28,812] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:34:28,815] {logging_mixin.py:104} INFO - [2022-12-10 16:34:28,815] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:34:28,956] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:34:29,100] {logging_mixin.py:104} INFO - [2022-12-10 16:34:29,100] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:34:29,166] {logging_mixin.py:104} INFO - [2022-12-10 16:34:29,165] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:34:29,194] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.406 seconds
+[2022-12-10 16:35:00,521] {scheduler_job.py:182} INFO - Started process (PID=1650) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:35:00,524] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:35:00,536] {logging_mixin.py:104} INFO - [2022-12-10 16:35:00,535] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:35:00,646] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:35:00,698] {logging_mixin.py:104} INFO - [2022-12-10 16:35:00,698] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:35:00,757] {logging_mixin.py:104} INFO - [2022-12-10 16:35:00,757] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:35:00,797] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.287 seconds
+[2022-12-10 16:35:31,177] {scheduler_job.py:182} INFO - Started process (PID=1677) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:35:31,181] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:35:31,183] {logging_mixin.py:104} INFO - [2022-12-10 16:35:31,183] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:35:31,263] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:35:31,316] {logging_mixin.py:104} INFO - [2022-12-10 16:35:31,316] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:35:31,368] {logging_mixin.py:104} INFO - [2022-12-10 16:35:31,367] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:35:31,391] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.223 seconds
+[2022-12-10 16:36:05,717] {scheduler_job.py:182} INFO - Started process (PID=1706) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:36:05,740] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:36:05,760] {logging_mixin.py:104} INFO - [2022-12-10 16:36:05,760] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:36:06,425] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:36:06,589] {logging_mixin.py:104} INFO - [2022-12-10 16:36:06,589] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:36:06,768] {logging_mixin.py:104} INFO - [2022-12-10 16:36:06,767] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:36:06,884] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.183 seconds
+[2022-12-10 16:36:37,199] {scheduler_job.py:182} INFO - Started process (PID=1733) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:36:37,204] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:36:37,207] {logging_mixin.py:104} INFO - [2022-12-10 16:36:37,206] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:36:37,330] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:36:37,416] {logging_mixin.py:104} INFO - [2022-12-10 16:36:37,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:36:37,491] {logging_mixin.py:104} INFO - [2022-12-10 16:36:37,490] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:36:37,519] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.333 seconds
+[2022-12-10 16:37:08,558] {scheduler_job.py:182} INFO - Started process (PID=1760) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:37:08,565] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:37:08,567] {logging_mixin.py:104} INFO - [2022-12-10 16:37:08,567] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:37:08,742] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:37:08,826] {logging_mixin.py:104} INFO - [2022-12-10 16:37:08,826] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:37:08,873] {logging_mixin.py:104} INFO - [2022-12-10 16:37:08,873] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:37:08,935] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.390 seconds
+[2022-12-10 16:37:39,732] {scheduler_job.py:182} INFO - Started process (PID=1787) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:37:39,737] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:37:39,739] {logging_mixin.py:104} INFO - [2022-12-10 16:37:39,739] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:37:39,842] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:37:39,926] {logging_mixin.py:104} INFO - [2022-12-10 16:37:39,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:37:39,978] {logging_mixin.py:104} INFO - [2022-12-10 16:37:39,978] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:37:40,010] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.291 seconds
+[2022-12-10 16:38:11,956] {scheduler_job.py:182} INFO - Started process (PID=1814) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:38:11,961] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:38:11,964] {logging_mixin.py:104} INFO - [2022-12-10 16:38:11,964] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:38:12,365] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:38:12,456] {logging_mixin.py:104} INFO - [2022-12-10 16:38:12,455] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:38:12,527] {logging_mixin.py:104} INFO - [2022-12-10 16:38:12,527] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:38:12,587] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.654 seconds
+[2022-12-10 16:38:43,815] {scheduler_job.py:182} INFO - Started process (PID=1840) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:38:43,825] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:38:43,828] {logging_mixin.py:104} INFO - [2022-12-10 16:38:43,828] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:38:44,093] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:38:44,192] {logging_mixin.py:104} INFO - [2022-12-10 16:38:44,192] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:38:44,252] {logging_mixin.py:104} INFO - [2022-12-10 16:38:44,252] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:38:44,278] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.483 seconds
+[2022-12-10 16:39:23,346] {scheduler_job.py:182} INFO - Started process (PID=1871) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:39:23,352] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:39:23,359] {logging_mixin.py:104} INFO - [2022-12-10 16:39:23,359] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:39:23,507] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:39:23,611] {logging_mixin.py:104} INFO - [2022-12-10 16:39:23,611] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:39:23,717] {logging_mixin.py:104} INFO - [2022-12-10 16:39:23,716] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:39:23,749] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.412 seconds
+[2022-12-10 16:40:00,734] {scheduler_job.py:182} INFO - Started process (PID=1900) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:40:00,772] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:40:00,814] {logging_mixin.py:104} INFO - [2022-12-10 16:40:00,813] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:40:02,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:40:02,313] {logging_mixin.py:104} INFO - [2022-12-10 16:40:02,313] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:40:02,427] {logging_mixin.py:104} INFO - [2022-12-10 16:40:02,427] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:40:02,509] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.794 seconds
+[2022-12-10 16:40:32,765] {scheduler_job.py:182} INFO - Started process (PID=1927) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:40:32,773] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:40:32,776] {logging_mixin.py:104} INFO - [2022-12-10 16:40:32,776] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:40:32,858] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:40:32,908] {logging_mixin.py:104} INFO - [2022-12-10 16:40:32,907] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:40:32,945] {logging_mixin.py:104} INFO - [2022-12-10 16:40:32,944] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:40:32,974] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.232 seconds
+[2022-12-10 16:41:04,262] {scheduler_job.py:182} INFO - Started process (PID=1954) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:41:04,342] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:41:04,361] {logging_mixin.py:104} INFO - [2022-12-10 16:41:04,361] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:41:05,125] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:41:05,332] {logging_mixin.py:104} INFO - [2022-12-10 16:41:05,331] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:41:05,490] {logging_mixin.py:104} INFO - [2022-12-10 16:41:05,489] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:41:05,576] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.376 seconds
+[2022-12-10 16:41:35,759] {scheduler_job.py:182} INFO - Started process (PID=1981) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:41:35,762] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:41:35,764] {logging_mixin.py:104} INFO - [2022-12-10 16:41:35,764] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:41:35,863] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:41:35,926] {logging_mixin.py:104} INFO - [2022-12-10 16:41:35,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:41:35,977] {logging_mixin.py:104} INFO - [2022-12-10 16:41:35,976] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:41:36,005] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.255 seconds
+[2022-12-10 16:42:06,438] {scheduler_job.py:182} INFO - Started process (PID=2008) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:42:06,442] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:42:06,444] {logging_mixin.py:104} INFO - [2022-12-10 16:42:06,444] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:42:06,532] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:42:06,592] {logging_mixin.py:104} INFO - [2022-12-10 16:42:06,592] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:42:06,634] {logging_mixin.py:104} INFO - [2022-12-10 16:42:06,634] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:42:06,656] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.228 seconds
+[2022-12-10 16:42:37,751] {scheduler_job.py:182} INFO - Started process (PID=2035) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:42:37,755] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:42:37,768] {logging_mixin.py:104} INFO - [2022-12-10 16:42:37,763] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:42:38,042] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:42:38,210] {logging_mixin.py:104} INFO - [2022-12-10 16:42:38,210] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:42:38,310] {logging_mixin.py:104} INFO - [2022-12-10 16:42:38,310] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:42:38,347] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.616 seconds
+[2022-12-10 16:43:08,717] {scheduler_job.py:182} INFO - Started process (PID=2062) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:43:08,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:43:08,724] {logging_mixin.py:104} INFO - [2022-12-10 16:43:08,724] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:43:08,828] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:43:08,984] {logging_mixin.py:104} INFO - [2022-12-10 16:43:08,984] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:43:09,114] {logging_mixin.py:104} INFO - [2022-12-10 16:43:09,114] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:43:09,147] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.439 seconds
+[2022-12-10 16:43:39,479] {scheduler_job.py:182} INFO - Started process (PID=2089) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:43:39,485] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:43:39,490] {logging_mixin.py:104} INFO - [2022-12-10 16:43:39,489] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:43:39,591] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:43:39,660] {logging_mixin.py:104} INFO - [2022-12-10 16:43:39,660] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:43:39,713] {logging_mixin.py:104} INFO - [2022-12-10 16:43:39,712] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:43:39,737] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.269 seconds
+[2022-12-10 16:44:10,977] {scheduler_job.py:182} INFO - Started process (PID=2116) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:44:11,025] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:44:11,042] {logging_mixin.py:104} INFO - [2022-12-10 16:44:11,042] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:44:11,585] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:44:11,767] {logging_mixin.py:104} INFO - [2022-12-10 16:44:11,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:44:11,850] {logging_mixin.py:104} INFO - [2022-12-10 16:44:11,850] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:44:11,963] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.016 seconds
+[2022-12-10 16:44:42,798] {scheduler_job.py:182} INFO - Started process (PID=2144) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:44:42,802] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:44:42,807] {logging_mixin.py:104} INFO - [2022-12-10 16:44:42,806] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:44:42,954] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:44:43,040] {logging_mixin.py:104} INFO - [2022-12-10 16:44:43,039] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:44:43,091] {logging_mixin.py:104} INFO - [2022-12-10 16:44:43,090] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:24:47.638429+00:00
+[2022-12-10 16:44:43,173] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.385 seconds
+[2022-12-10 16:45:18,359] {scheduler_job.py:182} INFO - Started process (PID=2174) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:45:18,377] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:45:18,390] {logging_mixin.py:104} INFO - [2022-12-10 16:45:18,389] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:45:18,666] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:45:18,831] {logging_mixin.py:104} INFO - [2022-12-10 16:45:18,830] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:45:19,029] {logging_mixin.py:104} INFO - [2022-12-10 16:45:19,029] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:45:19,110] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.771 seconds
+[2022-12-10 16:45:49,221] {scheduler_job.py:182} INFO - Started process (PID=2201) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:45:49,227] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:45:49,230] {logging_mixin.py:104} INFO - [2022-12-10 16:45:49,230] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:45:49,347] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:45:49,415] {logging_mixin.py:104} INFO - [2022-12-10 16:45:49,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:45:49,527] {logging_mixin.py:104} INFO - [2022-12-10 16:45:49,527] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:45:49,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.374 seconds
+[2022-12-10 16:46:25,036] {scheduler_job.py:182} INFO - Started process (PID=2228) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:46:25,120] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:46:25,137] {logging_mixin.py:104} INFO - [2022-12-10 16:46:25,137] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:46:29,135] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:46:29,340] {logging_mixin.py:104} INFO - [2022-12-10 16:46:29,340] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:46:29,497] {logging_mixin.py:104} INFO - [2022-12-10 16:46:29,496] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:46:29,679] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 4.662 seconds
+[2022-12-10 16:46:59,917] {scheduler_job.py:182} INFO - Started process (PID=2255) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:46:59,920] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:46:59,923] {logging_mixin.py:104} INFO - [2022-12-10 16:46:59,923] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:47:00,015] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:47:00,083] {logging_mixin.py:104} INFO - [2022-12-10 16:47:00,083] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:47:00,126] {logging_mixin.py:104} INFO - [2022-12-10 16:47:00,125] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:47:00,149] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.238 seconds
+[2022-12-10 16:47:30,441] {scheduler_job.py:182} INFO - Started process (PID=2282) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:47:30,445] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:47:30,448] {logging_mixin.py:104} INFO - [2022-12-10 16:47:30,447] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:47:30,553] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:47:30,613] {logging_mixin.py:104} INFO - [2022-12-10 16:47:30,612] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:47:30,651] {logging_mixin.py:104} INFO - [2022-12-10 16:47:30,651] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:47:30,674] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.243 seconds
+[2022-12-10 16:48:03,956] {scheduler_job.py:182} INFO - Started process (PID=2309) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:48:03,987] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:48:04,021] {logging_mixin.py:104} INFO - [2022-12-10 16:48:04,020] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:48:05,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:48:05,951] {logging_mixin.py:104} INFO - [2022-12-10 16:48:05,951] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:48:06,101] {logging_mixin.py:104} INFO - [2022-12-10 16:48:06,100] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:48:06,180] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 2.259 seconds
+[2022-12-10 16:48:36,380] {scheduler_job.py:182} INFO - Started process (PID=2337) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:48:36,384] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:48:36,386] {logging_mixin.py:104} INFO - [2022-12-10 16:48:36,386] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:48:36,530] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:48:36,630] {logging_mixin.py:104} INFO - [2022-12-10 16:48:36,629] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:48:36,722] {logging_mixin.py:104} INFO - [2022-12-10 16:48:36,718] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:48:36,812] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.445 seconds
+[2022-12-10 16:49:06,976] {scheduler_job.py:182} INFO - Started process (PID=2364) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:49:06,980] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:49:06,982] {logging_mixin.py:104} INFO - [2022-12-10 16:49:06,982] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:49:07,101] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:49:07,172] {logging_mixin.py:104} INFO - [2022-12-10 16:49:07,172] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:49:07,214] {logging_mixin.py:104} INFO - [2022-12-10 16:49:07,213] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:49:07,237] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.270 seconds
+[2022-12-10 16:49:37,765] {scheduler_job.py:182} INFO - Started process (PID=2391) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:49:37,770] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:49:37,772] {logging_mixin.py:104} INFO - [2022-12-10 16:49:37,772] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:49:37,923] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:49:38,008] {logging_mixin.py:104} INFO - [2022-12-10 16:49:38,008] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:49:38,038] {logging_mixin.py:104} INFO - [2022-12-10 16:49:38,038] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:49:38,057] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.303 seconds
+[2022-12-10 16:50:10,274] {scheduler_job.py:182} INFO - Started process (PID=2418) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:50:10,281] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:50:10,286] {logging_mixin.py:104} INFO - [2022-12-10 16:50:10,285] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:50:11,465] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:50:11,674] {logging_mixin.py:104} INFO - [2022-12-10 16:50:11,674] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:50:11,823] {logging_mixin.py:104} INFO - [2022-12-10 16:50:11,822] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:50:12,052] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.795 seconds
+[2022-12-10 16:50:42,789] {scheduler_job.py:182} INFO - Started process (PID=2446) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:50:42,792] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:50:42,795] {logging_mixin.py:104} INFO - [2022-12-10 16:50:42,795] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:50:42,877] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:50:42,921] {logging_mixin.py:104} INFO - [2022-12-10 16:50:42,921] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:50:42,954] {logging_mixin.py:104} INFO - [2022-12-10 16:50:42,954] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:50:43,034] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.253 seconds
+[2022-12-10 16:51:13,311] {scheduler_job.py:182} INFO - Started process (PID=2473) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:51:13,314] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:51:13,316] {logging_mixin.py:104} INFO - [2022-12-10 16:51:13,316] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:51:13,485] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:51:13,559] {logging_mixin.py:104} INFO - [2022-12-10 16:51:13,559] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:51:13,599] {logging_mixin.py:104} INFO - [2022-12-10 16:51:13,599] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:51:13,622] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.320 seconds
+[2022-12-10 16:51:43,719] {scheduler_job.py:182} INFO - Started process (PID=2500) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:51:43,723] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:51:43,725] {logging_mixin.py:104} INFO - [2022-12-10 16:51:43,725] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:51:43,819] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:51:43,880] {logging_mixin.py:104} INFO - [2022-12-10 16:51:43,880] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:51:43,923] {logging_mixin.py:104} INFO - [2022-12-10 16:51:43,923] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:51:43,946] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.236 seconds
+[2022-12-10 16:52:14,007] {scheduler_job.py:182} INFO - Started process (PID=2527) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:52:14,012] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:52:14,014] {logging_mixin.py:104} INFO - [2022-12-10 16:52:14,014] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:52:14,099] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:52:14,153] {logging_mixin.py:104} INFO - [2022-12-10 16:52:14,153] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:52:14,203] {logging_mixin.py:104} INFO - [2022-12-10 16:52:14,202] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:52:14,234] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.238 seconds
+[2022-12-10 16:52:44,799] {scheduler_job.py:182} INFO - Started process (PID=2554) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:52:44,809] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:52:44,811] {logging_mixin.py:104} INFO - [2022-12-10 16:52:44,810] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:52:44,912] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:52:44,982] {logging_mixin.py:104} INFO - [2022-12-10 16:52:44,982] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:52:45,034] {logging_mixin.py:104} INFO - [2022-12-10 16:52:45,034] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:52:45,054] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.285 seconds
+[2022-12-10 16:53:16,050] {scheduler_job.py:182} INFO - Started process (PID=2581) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:53:16,094] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:53:16,134] {logging_mixin.py:104} INFO - [2022-12-10 16:53:16,134] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:53:17,811] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:53:17,974] {logging_mixin.py:104} INFO - [2022-12-10 16:53:17,974] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:53:18,042] {logging_mixin.py:104} INFO - [2022-12-10 16:53:18,038] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:53:18,086] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 2.059 seconds
+[2022-12-10 16:53:48,436] {scheduler_job.py:182} INFO - Started process (PID=2609) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:53:48,451] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:53:48,456] {logging_mixin.py:104} INFO - [2022-12-10 16:53:48,455] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:53:48,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:53:49,098] {logging_mixin.py:104} INFO - [2022-12-10 16:53:49,087] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:53:49,294] {logging_mixin.py:104} INFO - [2022-12-10 16:53:49,294] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:53:49,805] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 1.397 seconds
+[2022-12-10 16:54:19,998] {scheduler_job.py:182} INFO - Started process (PID=2636) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:54:20,014] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:54:20,111] {logging_mixin.py:104} INFO - [2022-12-10 16:54:20,111] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:54:22,818] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:54:22,993] {logging_mixin.py:104} INFO - [2022-12-10 16:54:22,993] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:54:23,164] {logging_mixin.py:104} INFO - [2022-12-10 16:54:23,163] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:54:23,230] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 3.248 seconds
+[2022-12-10 16:54:53,347] {scheduler_job.py:182} INFO - Started process (PID=2664) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:54:53,350] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:54:53,352] {logging_mixin.py:104} INFO - [2022-12-10 16:54:53,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:54:53,437] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:54:53,488] {logging_mixin.py:104} INFO - [2022-12-10 16:54:53,488] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:54:53,521] {logging_mixin.py:104} INFO - [2022-12-10 16:54:53,521] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:54:53,541] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.203 seconds
+[2022-12-10 16:55:24,073] {scheduler_job.py:182} INFO - Started process (PID=2691) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:55:24,089] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:55:24,111] {logging_mixin.py:104} INFO - [2022-12-10 16:55:24,111] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:55:24,313] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:55:24,406] {logging_mixin.py:104} INFO - [2022-12-10 16:55:24,405] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:55:24,460] {logging_mixin.py:104} INFO - [2022-12-10 16:55:24,459] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:55:24,512] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.457 seconds
+[2022-12-10 16:55:55,312] {scheduler_job.py:182} INFO - Started process (PID=2718) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:55:55,318] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:55:55,320] {logging_mixin.py:104} INFO - [2022-12-10 16:55:55,320] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:55:55,419] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:55:55,491] {logging_mixin.py:104} INFO - [2022-12-10 16:55:55,490] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:55:55,557] {logging_mixin.py:104} INFO - [2022-12-10 16:55:55,556] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:55:55,588] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.286 seconds
+[2022-12-10 16:56:25,735] {scheduler_job.py:182} INFO - Started process (PID=2745) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:56:25,740] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:56:25,742] {logging_mixin.py:104} INFO - [2022-12-10 16:56:25,742] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:56:25,834] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:56:25,905] {logging_mixin.py:104} INFO - [2022-12-10 16:56:25,905] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:56:25,958] {logging_mixin.py:104} INFO - [2022-12-10 16:56:25,957] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:56:25,981] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.257 seconds
+[2022-12-10 16:56:56,576] {scheduler_job.py:182} INFO - Started process (PID=2772) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:56:56,583] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:56:56,590] {logging_mixin.py:104} INFO - [2022-12-10 16:56:56,589] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:56:56,696] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:56:56,784] {logging_mixin.py:104} INFO - [2022-12-10 16:56:56,783] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:56:56,834] {logging_mixin.py:104} INFO - [2022-12-10 16:56:56,834] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:56:57,062] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.498 seconds
+[2022-12-10 16:57:27,325] {scheduler_job.py:182} INFO - Started process (PID=2799) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:57:27,330] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:57:27,332] {logging_mixin.py:104} INFO - [2022-12-10 16:57:27,332] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:57:27,426] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:57:27,494] {logging_mixin.py:104} INFO - [2022-12-10 16:57:27,494] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:57:27,536] {logging_mixin.py:104} INFO - [2022-12-10 16:57:27,536] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:57:27,556] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.241 seconds
+[2022-12-10 16:57:58,666] {scheduler_job.py:182} INFO - Started process (PID=2826) to work on /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:57:58,671] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/gcp_dag.py for tasks to queue
+[2022-12-10 16:57:58,674] {logging_mixin.py:104} INFO - [2022-12-10 16:57:58,674] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:57:58,919] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['mysql-to-gcp']) retrieved from /opt/airflow/dags/gcp_dag.py
+[2022-12-10 16:57:59,038] {logging_mixin.py:104} INFO - [2022-12-10 16:57:59,038] {dag.py:1818} INFO - Sync 1 DAGs
+[2022-12-10 16:57:59,092] {logging_mixin.py:104} INFO - [2022-12-10 16:57:59,092] {dag.py:2273} INFO - Setting next_dagrun for mysql-to-gcp to 2022-12-10 16:44:47.638429+00:00
+[2022-12-10 16:57:59,116] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/gcp_dag.py took 0.469 seconds

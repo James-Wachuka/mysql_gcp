@@ -1,0 +1,91 @@
+[2022-12-10 16:15:34,310] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: mysql-to-gcp.inserting-data-into-bigquery 2022-12-10T16:13:41.194561+00:00 [queued]>
+[2022-12-10 16:15:34,353] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: mysql-to-gcp.inserting-data-into-bigquery 2022-12-10T16:13:41.194561+00:00 [queued]>
+[2022-12-10 16:15:34,354] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-10 16:15:34,354] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-12-10 16:15:34,355] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-10 16:15:34,380] {taskinstance.py:1063} INFO - Executing <Task(PythonVirtualenvOperator): inserting-data-into-bigquery> on 2022-12-10T16:13:41.194561+00:00
+[2022-12-10 16:15:34,388] {standard_task_runner.py:52} INFO - Started process 171 to run task
+[2022-12-10 16:15:34,400] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mysql-to-gcp', 'inserting-data-into-bigquery', '2022-12-10T16:13:41.194561+00:00', '--job-id', '8', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/gcp_dag.py', '--cfg-path', '/tmp/tmpzeiare2k', '--error-file', '/tmp/tmp3bz95ca7']
+[2022-12-10 16:15:34,402] {standard_task_runner.py:77} INFO - Job 8: Subtask inserting-data-into-bigquery
+[2022-12-10 16:15:34,532] {logging_mixin.py:104} INFO - Running <TaskInstance: mysql-to-gcp.inserting-data-into-bigquery 2022-12-10T16:13:41.194561+00:00 [running]> on host ec559b4d8f4f
+[2022-12-10 16:15:34,623] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql-to-gcp
+AIRFLOW_CTX_TASK_ID=inserting-data-into-bigquery
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-10T16:13:41.194561+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-10T16:13:41.194561+00:00
+[2022-12-10 16:15:34,626] {process_utils.py:135} INFO - Executing cmd: virtualenv /tmp/venvx0lh327a --system-site-packages
+[2022-12-10 16:15:34,642] {process_utils.py:137} INFO - Output:
+[2022-12-10 16:15:36,160] {process_utils.py:141} INFO - created virtual environment CPython3.6.15.final.0-64 in 958ms
+[2022-12-10 16:15:36,161] {process_utils.py:141} INFO -   creator CPython3Posix(dest=/tmp/venvx0lh327a, clear=False, no_vcs_ignore=False, global=True)
+[2022-12-10 16:15:36,163] {process_utils.py:141} INFO -   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/airflow/.local/share/virtualenv)
+[2022-12-10 16:15:36,164] {process_utils.py:141} INFO -     added seed packages: pip==21.0.1, setuptools==52.0.0, wheel==0.36.2
+[2022-12-10 16:15:36,165] {process_utils.py:141} INFO -   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+[2022-12-10 16:15:36,217] {process_utils.py:135} INFO - Executing cmd: /tmp/venvx0lh327a/bin/pip install google-cloud-bigquery google-cloud-bigquery-storage pandas
+[2022-12-10 16:15:36,234] {process_utils.py:137} INFO - Output:
+[2022-12-10 16:15:39,312] {process_utils.py:141} INFO - Requirement already satisfied: google-cloud-bigquery in /home/airflow/.local/lib/python3.6/site-packages (2.8.0)
+[2022-12-10 16:15:39,316] {process_utils.py:141} INFO - Requirement already satisfied: google-cloud-bigquery-storage in /home/airflow/.local/lib/python3.6/site-packages (2.2.1)
+[2022-12-10 16:15:39,319] {process_utils.py:141} INFO - Requirement already satisfied: pandas in /home/airflow/.local/lib/python3.6/site-packages (1.1.5)
+[2022-12-10 16:15:39,438] {process_utils.py:141} INFO - Requirement already satisfied: google-cloud-core<2.0dev,>=1.4.1 in /home/airflow/.local/lib/python3.6/site-packages (from google-cloud-bigquery) (1.6.0)
+[2022-12-10 16:15:39,445] {process_utils.py:141} INFO - Requirement already satisfied: proto-plus>=1.10.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-cloud-bigquery) (1.13.0)
+[2022-12-10 16:15:39,450] {process_utils.py:141} INFO - Requirement already satisfied: google-api-core[grpc]<2.0.0dev,>=1.23.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-cloud-bigquery) (1.26.0)
+[2022-12-10 16:15:39,455] {process_utils.py:141} INFO - Requirement already satisfied: protobuf>=3.12.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-cloud-bigquery) (3.14.0)
+[2022-12-10 16:15:39,465] {process_utils.py:141} INFO - Requirement already satisfied: google-resumable-media<2.0dev,>=0.6.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-cloud-bigquery) (1.2.0)
+[2022-12-10 16:15:39,552] {process_utils.py:141} INFO - Requirement already satisfied: googleapis-common-protos<2.0dev,>=1.6.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (1.52.0)
+[2022-12-10 16:15:39,559] {process_utils.py:141} INFO - Requirement already satisfied: setuptools>=40.3.0 in /tmp/venvx0lh327a/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (52.0.0)
+[2022-12-10 16:15:39,563] {process_utils.py:141} INFO - Requirement already satisfied: google-auth<2.0dev,>=1.21.1 in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (1.26.1)
+[2022-12-10 16:15:39,566] {process_utils.py:141} INFO - Requirement already satisfied: pytz in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (2020.5)
+[2022-12-10 16:15:39,575] {process_utils.py:141} INFO - Requirement already satisfied: six>=1.13.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (1.15.0)
+[2022-12-10 16:15:39,577] {process_utils.py:141} INFO - Requirement already satisfied: requests<3.0.0dev,>=2.18.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (2.25.1)
+[2022-12-10 16:15:39,581] {process_utils.py:141} INFO - Requirement already satisfied: packaging>=14.3 in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (20.9)
+[2022-12-10 16:15:39,586] {process_utils.py:141} INFO - Requirement already satisfied: grpcio<2.0dev,>=1.29.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (1.35.0)
+[2022-12-10 16:15:39,650] {process_utils.py:141} INFO - Requirement already satisfied: cachetools<5.0,>=2.0.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-auth<2.0dev,>=1.21.1->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (4.2.1)
+[2022-12-10 16:15:39,656] {process_utils.py:141} INFO - Requirement already satisfied: rsa<5,>=3.1.4 in /home/airflow/.local/lib/python3.6/site-packages (from google-auth<2.0dev,>=1.21.1->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (4.7)
+[2022-12-10 16:15:39,659] {process_utils.py:141} INFO - Requirement already satisfied: pyasn1-modules>=0.2.1 in /home/airflow/.local/lib/python3.6/site-packages (from google-auth<2.0dev,>=1.21.1->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (0.2.8)
+[2022-12-10 16:15:39,746] {process_utils.py:141} INFO - Requirement already satisfied: google-crc32c<2.0dev,>=1.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-resumable-media<2.0dev,>=0.6.0->google-cloud-bigquery) (1.1.2)
+[2022-12-10 16:15:39,777] {process_utils.py:141} INFO - Requirement already satisfied: cffi>=1.0.0 in /home/airflow/.local/lib/python3.6/site-packages (from google-crc32c<2.0dev,>=1.0->google-resumable-media<2.0dev,>=0.6.0->google-cloud-bigquery) (1.14.5)
+[2022-12-10 16:15:39,789] {process_utils.py:141} INFO - Requirement already satisfied: pycparser in /home/airflow/.local/lib/python3.6/site-packages (from cffi>=1.0.0->google-crc32c<2.0dev,>=1.0->google-resumable-media<2.0dev,>=0.6.0->google-cloud-bigquery) (2.20)
+[2022-12-10 16:15:39,862] {process_utils.py:141} INFO - Requirement already satisfied: pyparsing>=2.0.2 in /home/airflow/.local/lib/python3.6/site-packages (from packaging>=14.3->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (2.4.7)
+[2022-12-10 16:15:39,925] {process_utils.py:141} INFO - Requirement already satisfied: pyasn1<0.5.0,>=0.4.6 in /home/airflow/.local/lib/python3.6/site-packages (from pyasn1-modules>=0.2.1->google-auth<2.0dev,>=1.21.1->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (0.4.8)
+[2022-12-10 16:15:40,020] {process_utils.py:141} INFO - Requirement already satisfied: chardet<5,>=3.0.2 in /home/airflow/.local/lib/python3.6/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (3.0.4)
+[2022-12-10 16:15:40,027] {process_utils.py:141} INFO - Requirement already satisfied: certifi>=2017.4.17 in /home/airflow/.local/lib/python3.6/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (2020.12.5)
+[2022-12-10 16:15:40,032] {process_utils.py:141} INFO - Requirement already satisfied: idna<3,>=2.5 in /home/airflow/.local/lib/python3.6/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (2.10)
+[2022-12-10 16:15:40,038] {process_utils.py:141} INFO - Requirement already satisfied: urllib3<1.27,>=1.21.1 in /home/airflow/.local/lib/python3.6/site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.23.0->google-cloud-bigquery) (1.25.11)
+[2022-12-10 16:15:40,263] {process_utils.py:141} INFO - Requirement already satisfied: libcst>=0.2.5 in /home/airflow/.local/lib/python3.6/site-packages (from google-cloud-bigquery-storage) (0.3.17)
+[2022-12-10 16:15:40,376] {process_utils.py:141} INFO - Requirement already satisfied: pyyaml>=5.2 in /home/airflow/.local/lib/python3.6/site-packages (from libcst>=0.2.5->google-cloud-bigquery-storage) (5.4.1)
+[2022-12-10 16:15:40,381] {process_utils.py:141} INFO - Requirement already satisfied: dataclasses>=0.6.0 in /home/airflow/.local/lib/python3.6/site-packages (from libcst>=0.2.5->google-cloud-bigquery-storage) (0.7)
+[2022-12-10 16:15:40,384] {process_utils.py:141} INFO - Requirement already satisfied: typing-extensions>=3.7.4.2 in /home/airflow/.local/lib/python3.6/site-packages (from libcst>=0.2.5->google-cloud-bigquery-storage) (3.7.4.3)
+[2022-12-10 16:15:40,387] {process_utils.py:141} INFO - Requirement already satisfied: typing-inspect>=0.4.0 in /home/airflow/.local/lib/python3.6/site-packages (from libcst>=0.2.5->google-cloud-bigquery-storage) (0.6.0)
+[2022-12-10 16:15:40,461] {process_utils.py:141} INFO - Requirement already satisfied: mypy-extensions>=0.3.0 in /home/airflow/.local/lib/python3.6/site-packages (from typing-inspect>=0.4.0->libcst>=0.2.5->google-cloud-bigquery-storage) (0.4.3)
+[2022-12-10 16:15:40,516] {process_utils.py:141} INFO - Requirement already satisfied: numpy>=1.15.4 in /home/airflow/.local/lib/python3.6/site-packages (from pandas) (1.19.5)
+[2022-12-10 16:15:40,522] {process_utils.py:141} INFO - Requirement already satisfied: python-dateutil>=2.7.3 in /home/airflow/.local/lib/python3.6/site-packages (from pandas) (2.8.1)
+[2022-12-10 16:15:58,676] {process_utils.py:141} INFO - WARNING: You are using pip version 21.0.1; however, version 21.3.1 is available.
+[2022-12-10 16:15:58,678] {process_utils.py:141} INFO - You should consider upgrading via the '/tmp/venvx0lh327a/bin/python -m pip install --upgrade pip' command.
+[2022-12-10 16:15:58,953] {process_utils.py:135} INFO - Executing cmd: /tmp/venvx0lh327a/bin/python /tmp/venvx0lh327a/script.py /tmp/venvx0lh327a/script.in /tmp/venvx0lh327a/script.out /tmp/venvx0lh327a/string_args.txt
+[2022-12-10 16:15:58,969] {process_utils.py:137} INFO - Output:
+[2022-12-10 16:16:04,486] {process_utils.py:141} INFO - [[34m2022-12-10 16:16:04,485[0m] {[34mbase.py:[0m74} INFO[0m - Using connection to: id: mysql_default. Host: host.docker.internal, Port: 3306, Schema: classicmodels, Login: root, Password: XXXXXXXX, extra: None[0m
+[2022-12-10 16:16:13,257] {process_utils.py:141} INFO - Traceback (most recent call last):
+[2022-12-10 16:16:13,258] {process_utils.py:141} INFO -   File "/tmp/venvx0lh327a/script.py", line 87, in <module>
+[2022-12-10 16:16:13,259] {process_utils.py:141} INFO -     pickle.dump(res, file)
+[2022-12-10 16:16:13,260] {process_utils.py:141} INFO - AttributeError: Can't pickle local object 'if_exception_type.<locals>.if_exception_type_predicate'
+[2022-12-10 16:16:13,851] {taskinstance.py:1455} ERROR - Command '['/tmp/venvx0lh327a/bin/python', '/tmp/venvx0lh327a/script.py', '/tmp/venvx0lh327a/script.in', '/tmp/venvx0lh327a/script.out', '/tmp/venvx0lh327a/string_args.txt']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 493, in execute
+    super().execute(context=serializable_context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 531, in execute_callable
+    string_args_filename,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/process_utils.py", line 145, in execute_in_subprocess
+    raise subprocess.CalledProcessError(exit_code, cmd)
+subprocess.CalledProcessError: Command '['/tmp/venvx0lh327a/bin/python', '/tmp/venvx0lh327a/script.py', '/tmp/venvx0lh327a/script.in', '/tmp/venvx0lh327a/script.out', '/tmp/venvx0lh327a/string_args.txt']' returned non-zero exit status 1.
+[2022-12-10 16:16:13,856] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=mysql-to-gcp, task_id=inserting-data-into-bigquery, execution_date=20221210T161341, start_date=20221210T161534, end_date=20221210T161613
+[2022-12-10 16:16:13,926] {local_task_job.py:146} INFO - Task exited with return code 1

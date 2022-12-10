@@ -1,0 +1,136 @@
+[2022-12-10 16:44:49,950] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: mysql-to-gcp.creating-a-dataset-in-bigquery 2022-12-10T16:24:47.638429+00:00 [queued]>
+[2022-12-10 16:44:49,997] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: mysql-to-gcp.creating-a-dataset-in-bigquery 2022-12-10T16:24:47.638429+00:00 [queued]>
+[2022-12-10 16:44:49,998] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-10 16:44:49,999] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-12-10 16:44:50,000] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-10 16:44:50,026] {taskinstance.py:1063} INFO - Executing <Task(PythonVirtualenvOperator): creating-a-dataset-in-bigquery> on 2022-12-10T16:24:47.638429+00:00
+[2022-12-10 16:44:50,035] {standard_task_runner.py:52} INFO - Started process 504 to run task
+[2022-12-10 16:44:50,048] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mysql-to-gcp', 'creating-a-dataset-in-bigquery', '2022-12-10T16:24:47.638429+00:00', '--job-id', '22', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/gcp_dag.py', '--cfg-path', '/tmp/tmpu9ogop3b', '--error-file', '/tmp/tmpk_706qhc']
+[2022-12-10 16:44:50,050] {standard_task_runner.py:77} INFO - Job 22: Subtask creating-a-dataset-in-bigquery
+[2022-12-10 16:44:50,171] {logging_mixin.py:104} INFO - Running <TaskInstance: mysql-to-gcp.creating-a-dataset-in-bigquery 2022-12-10T16:24:47.638429+00:00 [running]> on host ec559b4d8f4f
+[2022-12-10 16:44:50,283] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql-to-gcp
+AIRFLOW_CTX_TASK_ID=creating-a-dataset-in-bigquery
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-10T16:24:47.638429+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-10T16:24:47.638429+00:00
+[2022-12-10 16:44:50,286] {process_utils.py:135} INFO - Executing cmd: virtualenv /tmp/venv59zn2yr4
+[2022-12-10 16:44:50,303] {process_utils.py:137} INFO - Output:
+[2022-12-10 16:44:51,968] {process_utils.py:141} INFO - created virtual environment CPython3.6.15.final.0-64 in 1068ms
+[2022-12-10 16:44:52,062] {process_utils.py:141} INFO -   creator CPython3Posix(dest=/tmp/venv59zn2yr4, clear=False, no_vcs_ignore=False, global=False)
+[2022-12-10 16:44:52,079] {process_utils.py:141} INFO -   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/airflow/.local/share/virtualenv)
+[2022-12-10 16:44:52,114] {process_utils.py:141} INFO -     added seed packages: pip==21.0.1, setuptools==52.0.0, wheel==0.36.2
+[2022-12-10 16:44:52,130] {process_utils.py:141} INFO -   activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+[2022-12-10 16:44:52,160] {process_utils.py:135} INFO - Executing cmd: /tmp/venv59zn2yr4/bin/pip install google-cloud-bigquery google-cloud-bigquery-storage
+[2022-12-10 16:44:52,186] {process_utils.py:137} INFO - Output:
+[2022-12-10 16:44:57,754] {process_utils.py:141} INFO - Collecting google-cloud-bigquery
+[2022-12-10 16:44:57,760] {process_utils.py:141} INFO -   Using cached google_cloud_bigquery-3.2.0-py2.py3-none-any.whl (211 kB)
+[2022-12-10 16:44:58,519] {process_utils.py:141} INFO - Collecting google-cloud-bigquery-storage
+[2022-12-10 16:44:58,525] {process_utils.py:141} INFO -   Using cached google_cloud_bigquery_storage-2.13.2-py2.py3-none-any.whl (180 kB)
+[2022-12-10 16:44:59,475] {process_utils.py:141} INFO - Collecting packaging<22.0.0dev,>=14.3
+[2022-12-10 16:44:59,481] {process_utils.py:141} INFO -   Using cached packaging-21.3-py3-none-any.whl (40 kB)
+[2022-12-10 16:45:04,533] {process_utils.py:141} INFO - Collecting protobuf<4.0.0dev,>=3.12.0
+[2022-12-10 16:45:04,573] {process_utils.py:141} INFO -   Using cached protobuf-3.19.6-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+[2022-12-10 16:45:06,423] {process_utils.py:141} INFO - Collecting google-resumable-media<3.0dev,>=0.6.0
+[2022-12-10 16:45:06,434] {process_utils.py:141} INFO -   Using cached google_resumable_media-2.3.3-py2.py3-none-any.whl (76 kB)
+[2022-12-10 16:45:08,629] {process_utils.py:141} INFO - Collecting pyarrow<9.0dev,>=3.0.0
+[2022-12-10 16:45:13,991] {process_utils.py:141} INFO -   Using cached pyarrow-6.0.1-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25.6 MB)
+[2022-12-10 16:45:18,553] {process_utils.py:141} INFO - Collecting proto-plus<2.0.0dev,>=1.15.0
+[2022-12-10 16:45:18,585] {process_utils.py:141} INFO -   Using cached proto_plus-1.22.1-py3-none-any.whl (47 kB)
+[2022-12-10 16:45:20,981] {process_utils.py:141} INFO - Collecting requests<3.0.0dev,>=2.18.0
+[2022-12-10 16:45:21,001] {process_utils.py:141} INFO -   Using cached requests-2.27.1-py2.py3-none-any.whl (63 kB)
+[2022-12-10 16:45:24,044] {process_utils.py:141} INFO - Collecting google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5
+[2022-12-10 16:45:24,065] {process_utils.py:141} INFO -   Using cached google_api_core-2.8.2-py3-none-any.whl (114 kB)
+[2022-12-10 16:45:24,911] {process_utils.py:141} INFO - Collecting python-dateutil<3.0dev,>=2.7.2
+[2022-12-10 16:45:24,933] {process_utils.py:141} INFO -   Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+[2022-12-10 16:45:26,025] {process_utils.py:141} INFO - Collecting google-cloud-core<3.0.0dev,>=1.4.1
+[2022-12-10 16:45:26,044] {process_utils.py:141} INFO -   Using cached google_cloud_core-2.3.1-py2.py3-none-any.whl (29 kB)
+[2022-12-10 16:45:35,735] {process_utils.py:141} INFO - Collecting grpcio<2.0dev,>=1.38.1
+[2022-12-10 16:45:35,946] {process_utils.py:141} INFO -   Using cached grpcio-1.48.2-cp36-cp36m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+[2022-12-10 16:45:39,300] {process_utils.py:141} INFO - Collecting google-auth<3.0dev,>=1.25.0
+[2022-12-10 16:45:39,370] {process_utils.py:141} INFO -   Using cached google_auth-2.15.0-py2.py3-none-any.whl (177 kB)
+[2022-12-10 16:45:40,583] {process_utils.py:141} INFO - Collecting googleapis-common-protos<2.0dev,>=1.56.2
+[2022-12-10 16:45:40,595] {process_utils.py:141} INFO -   Using cached googleapis_common_protos-1.56.3-py2.py3-none-any.whl (211 kB)
+[2022-12-10 16:45:41,521] {process_utils.py:141} INFO - Collecting grpcio-status<2.0dev,>=1.33.2
+[2022-12-10 16:45:41,540] {process_utils.py:141} INFO -   Using cached grpcio_status-1.51.1-py3-none-any.whl (5.1 kB)
+[2022-12-10 16:45:42,622] {process_utils.py:141} INFO - Collecting rsa<5,>=3.1.4
+[2022-12-10 16:45:42,633] {process_utils.py:141} INFO -   Using cached rsa-4.9-py3-none-any.whl (34 kB)
+[2022-12-10 16:45:43,127] {process_utils.py:141} INFO - Collecting cachetools<6.0,>=2.0.0
+[2022-12-10 16:45:43,135] {process_utils.py:141} INFO -   Using cached cachetools-4.2.4-py3-none-any.whl (10 kB)
+[2022-12-10 16:45:43,684] {process_utils.py:141} INFO - Collecting six>=1.9.0
+[2022-12-10 16:45:43,694] {process_utils.py:141} INFO -   Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+[2022-12-10 16:45:44,584] {process_utils.py:141} INFO - Collecting pyasn1-modules>=0.2.1
+[2022-12-10 16:45:44,593] {process_utils.py:141} INFO -   Using cached pyasn1_modules-0.2.8-py2.py3-none-any.whl (155 kB)
+[2022-12-10 16:45:46,327] {process_utils.py:141} INFO - Collecting google-crc32c<2.0dev,>=1.0
+[2022-12-10 16:45:46,337] {process_utils.py:141} INFO -   Using cached google_crc32c-1.3.0-cp36-cp36m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (37 kB)
+[2022-12-10 16:45:46,884] {process_utils.py:141} INFO - Collecting grpcio-status<2.0dev,>=1.33.2
+[2022-12-10 16:45:46,900] {process_utils.py:141} INFO -   Using cached grpcio_status-1.50.0-py3-none-any.whl (14 kB)
+[2022-12-10 16:45:47,321] {process_utils.py:141} INFO -   Using cached grpcio_status-1.49.1-py3-none-any.whl (14 kB)
+[2022-12-10 16:45:47,603] {process_utils.py:141} INFO -   Using cached grpcio_status-1.48.2-py3-none-any.whl (14 kB)
+[2022-12-10 16:45:48,981] {process_utils.py:141} INFO - Collecting pyparsing!=3.0.5,>=2.0.2
+[2022-12-10 16:45:48,991] {process_utils.py:141} INFO -   Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+[2022-12-10 16:45:55,221] {process_utils.py:141} INFO - Collecting numpy>=1.16.6
+[2022-12-10 16:45:55,346] {process_utils.py:141} INFO -   Using cached numpy-1.19.5-cp36-cp36m-manylinux2010_x86_64.whl (14.8 MB)
+[2022-12-10 16:45:57,012] {process_utils.py:141} INFO - Collecting pyasn1<0.5.0,>=0.4.6
+[2022-12-10 16:45:57,021] {process_utils.py:141} INFO -   Using cached pyasn1-0.4.8-py2.py3-none-any.whl (77 kB)
+[2022-12-10 16:45:58,064] {process_utils.py:141} INFO - Collecting certifi>=2017.4.17
+[2022-12-10 16:45:58,070] {process_utils.py:141} INFO -   Using cached certifi-2022.12.7-py3-none-any.whl (155 kB)
+[2022-12-10 16:45:58,597] {process_utils.py:141} INFO - Collecting idna<4,>=2.5
+[2022-12-10 16:45:58,604] {process_utils.py:141} INFO -   Using cached idna-3.4-py3-none-any.whl (61 kB)
+[2022-12-10 16:45:59,680] {process_utils.py:141} INFO - Collecting charset-normalizer~=2.0.0
+[2022-12-10 16:45:59,685] {process_utils.py:141} INFO -   Using cached charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+[2022-12-10 16:46:00,788] {process_utils.py:141} INFO - Collecting urllib3<1.27,>=1.21.1
+[2022-12-10 16:46:00,797] {process_utils.py:141} INFO -   Using cached urllib3-1.26.13-py2.py3-none-any.whl (140 kB)
+[2022-12-10 16:46:02,129] {process_utils.py:141} INFO - Installing collected packages: pyasn1, urllib3, six, rsa, pyasn1-modules, protobuf, idna, charset-normalizer, certifi, cachetools, requests, grpcio, googleapis-common-protos, google-auth, grpcio-status, google-api-core, pyparsing, proto-plus, numpy, google-crc32c, python-dateutil, pyarrow, packaging, google-resumable-media, google-cloud-core, google-cloud-bigquery-storage, google-cloud-bigquery
+[2022-12-10 16:46:32,086] {process_utils.py:141} INFO - Successfully installed cachetools-4.2.4 certifi-2022.12.7 charset-normalizer-2.0.12 google-api-core-2.8.2 google-auth-2.15.0 google-cloud-bigquery-3.2.0 google-cloud-bigquery-storage-2.13.2 google-cloud-core-2.3.1 google-crc32c-1.3.0 google-resumable-media-2.3.3 googleapis-common-protos-1.56.3 grpcio-1.48.2 grpcio-status-1.48.2 idna-3.4 numpy-1.19.5 packaging-21.3 proto-plus-1.22.1 protobuf-3.19.6 pyarrow-6.0.1 pyasn1-0.4.8 pyasn1-modules-0.2.8 pyparsing-3.0.9 python-dateutil-2.8.2 requests-2.27.1 rsa-4.9 six-1.16.0 urllib3-1.26.13
+[2022-12-10 16:46:35,010] {process_utils.py:141} INFO - WARNING: You are using pip version 21.0.1; however, version 21.3.1 is available.
+[2022-12-10 16:46:35,011] {process_utils.py:141} INFO - You should consider upgrading via the '/tmp/venv59zn2yr4/bin/python -m pip install --upgrade pip' command.
+[2022-12-10 16:46:35,609] {process_utils.py:135} INFO - Executing cmd: /tmp/venv59zn2yr4/bin/python /tmp/venv59zn2yr4/script.py /tmp/venv59zn2yr4/script.in /tmp/venv59zn2yr4/script.out /tmp/venv59zn2yr4/string_args.txt
+[2022-12-10 16:46:35,634] {process_utils.py:137} INFO - Output:
+[2022-12-10 16:46:39,680] {process_utils.py:141} INFO - Traceback (most recent call last):
+[2022-12-10 16:46:39,689] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/script.py", line 55, in <module>
+[2022-12-10 16:46:39,695] {process_utils.py:141} INFO -     res = create_dataset(*arg_dict["args"], **arg_dict["kwargs"])
+[2022-12-10 16:46:39,701] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/script.py", line 35, in create_dataset
+[2022-12-10 16:46:39,705] {process_utils.py:141} INFO -     client = bigquery.Client()
+[2022-12-10 16:46:39,715] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/cloud/bigquery/client.py", line 230, in __init__
+[2022-12-10 16:46:39,717] {process_utils.py:141} INFO -     _http=_http,
+[2022-12-10 16:46:39,719] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+[2022-12-10 16:46:39,720] {process_utils.py:141} INFO -     _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+[2022-12-10 16:46:39,728] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+[2022-12-10 16:46:39,738] {process_utils.py:141} INFO -     project = self._determine_default(project)
+[2022-12-10 16:46:39,747] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+[2022-12-10 16:46:39,753] {process_utils.py:141} INFO -     return _determine_default_project(project)
+[2022-12-10 16:46:39,756] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+[2022-12-10 16:46:39,759] {process_utils.py:141} INFO -     _, project = google.auth.default()
+[2022-12-10 16:46:39,761] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/auth/_default.py", line 620, in default
+[2022-12-10 16:46:39,774] {process_utils.py:141} INFO -     credentials, project_id = checker()
+[2022-12-10 16:46:39,779] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/auth/_default.py", line 613, in <lambda>
+[2022-12-10 16:46:39,790] {process_utils.py:141} INFO -     lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+[2022-12-10 16:46:39,795] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/auth/_default.py", line 234, in _get_explicit_environ_credentials
+[2022-12-10 16:46:39,798] {process_utils.py:141} INFO -     os.environ[environment_vars.CREDENTIALS], quota_project_id=quota_project_id
+[2022-12-10 16:46:39,803] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/auth/_default.py", line 134, in load_credentials_from_file
+[2022-12-10 16:46:39,813] {process_utils.py:141} INFO -     filename, info, scopes, default_scopes, quota_project_id, request
+[2022-12-10 16:46:39,832] {process_utils.py:141} INFO -   File "/tmp/venv59zn2yr4/lib/python3.6/site-packages/google/auth/_default.py", line 179, in _load_credentials_from_info
+[2022-12-10 16:46:39,847] {process_utils.py:141} INFO -     file=filename, type=credential_type, valid_types=_VALID_TYPES
+[2022-12-10 16:46:39,849] {process_utils.py:141} INFO - google.auth.exceptions.DefaultCredentialsError: The file data/introduction-to-gcp.json does not have a valid type. Type is None, expected one of ('authorized_user', 'service_account', 'external_account', 'external_account_authorized_user', 'impersonated_service_account', 'gdch_service_account').
+[2022-12-10 16:46:40,992] {taskinstance.py:1455} ERROR - Command '['/tmp/venv59zn2yr4/bin/python', '/tmp/venv59zn2yr4/script.py', '/tmp/venv59zn2yr4/script.in', '/tmp/venv59zn2yr4/script.out', '/tmp/venv59zn2yr4/string_args.txt']' returned non-zero exit status 1.
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 493, in execute
+    super().execute(context=serializable_context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 531, in execute_callable
+    string_args_filename,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/process_utils.py", line 145, in execute_in_subprocess
+    raise subprocess.CalledProcessError(exit_code, cmd)
+subprocess.CalledProcessError: Command '['/tmp/venv59zn2yr4/bin/python', '/tmp/venv59zn2yr4/script.py', '/tmp/venv59zn2yr4/script.in', '/tmp/venv59zn2yr4/script.out', '/tmp/venv59zn2yr4/string_args.txt']' returned non-zero exit status 1.
+[2022-12-10 16:46:41,000] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=mysql-to-gcp, task_id=creating-a-dataset-in-bigquery, execution_date=20221210T162447, start_date=20221210T164449, end_date=20221210T164640
+[2022-12-10 16:46:41,066] {local_task_job.py:146} INFO - Task exited with return code 1

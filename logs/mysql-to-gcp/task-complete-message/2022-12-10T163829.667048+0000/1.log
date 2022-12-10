@@ -1,0 +1,23 @@
+[2022-12-10 16:42:20,939] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: mysql-to-gcp.task-complete-message 2022-12-10T16:38:29.667048+00:00 [queued]>
+[2022-12-10 16:42:20,976] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: mysql-to-gcp.task-complete-message 2022-12-10T16:38:29.667048+00:00 [queued]>
+[2022-12-10 16:42:20,977] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-10 16:42:20,978] {taskinstance.py:1043} INFO - Starting attempt 1 of 1
+[2022-12-10 16:42:20,979] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-10 16:42:21,000] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): task-complete-message> on 2022-12-10T16:38:29.667048+00:00
+[2022-12-10 16:42:21,010] {standard_task_runner.py:52} INFO - Started process 502 to run task
+[2022-12-10 16:42:21,020] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'mysql-to-gcp', 'task-complete-message', '2022-12-10T16:38:29.667048+00:00', '--job-id', '21', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/gcp_dag.py', '--cfg-path', '/tmp/tmputx791j6', '--error-file', '/tmp/tmpqdncv8fc']
+[2022-12-10 16:42:21,022] {standard_task_runner.py:77} INFO - Job 21: Subtask task-complete-message
+[2022-12-10 16:42:21,123] {logging_mixin.py:104} INFO - Running <TaskInstance: mysql-to-gcp.task-complete-message 2022-12-10T16:38:29.667048+00:00 [running]> on host ec559b4d8f4f
+[2022-12-10 16:42:21,215] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=mysql-to-gcp
+AIRFLOW_CTX_TASK_ID=task-complete-message
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-10T16:38:29.667048+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-10T16:38:29.667048+00:00
+[2022-12-10 16:42:21,217] {logging_mixin.py:104} INFO - data successfully loaded into gc-bigquery
+[2022-12-10 16:42:21,218] {python.py:118} INFO - Done. Returned value was: None
+[2022-12-10 16:42:21,244] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=mysql-to-gcp, task_id=task-complete-message, execution_date=20221210T163829, start_date=20221210T164220, end_date=20221210T164221
+[2022-12-10 16:42:21,303] {taskinstance.py:1220} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-10 16:42:21,356] {local_task_job.py:146} INFO - Task exited with return code 0
